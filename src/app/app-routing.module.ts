@@ -25,7 +25,7 @@ const routes: Routes = [
     component: RegisterComponent
   },
   {
-    path: 'quiz/:quizID',
+    path: 'quiz',
     component: UserQuizComponent
   }
 ];

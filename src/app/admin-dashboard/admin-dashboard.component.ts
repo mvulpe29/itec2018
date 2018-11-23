@@ -19,7 +19,6 @@ export class AdminDashboardComponent implements OnInit {
   ngOnInit() {
     this.afAuth.auth.onAuthStateChanged(user => {
       if (user) {
-        console.log('loggedIn');
       } else {
         this.router.navigate(['/login']);
       }
